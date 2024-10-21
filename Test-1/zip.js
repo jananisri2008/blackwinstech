@@ -22,3 +22,7 @@ function zip(str) {
 }
 console.log(zip("all zip files are zipped"));      
 console.log(zip("all zip files are compressed"));  
+
+/*output
+18
+-1*/
