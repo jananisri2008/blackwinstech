@@ -21,6 +21,13 @@ function wholeno(arr) {
         return false; 
         }
 }
+
+/*output
+true
+false
+true
+true
+false*/
 console.log(wholeno([1, 3]));          
 console.log(wholeno([1, 2, 3, 4]));    
 console.log(wholeno([1, 5, 6]));       
