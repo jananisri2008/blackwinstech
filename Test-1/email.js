@@ -53,4 +53,10 @@ console.log(email("@gmail.com"));
 console.log(email("hello.gmail@com"));       
 console.log(email("gmail"));                 
 console.log(email("hello@gmail"));           
-console.log(email("hello@edabit.com"));      
+console.log(email("hello@edabit.com"));     
+
+/*output
+false
+false
+false
+true*/
