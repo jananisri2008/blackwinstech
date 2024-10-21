@@ -28,3 +28,9 @@ console.log(firstindex("apple"));
 console.log(firstindex("hello"));      
 console.log(firstindex("STRAWBERRY"));  
 console.log(firstindex("pInEaPPLe"));   
+
+/*output
+0
+1
+3
+1*/
