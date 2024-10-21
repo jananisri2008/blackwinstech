@@ -57,5 +57,10 @@ function purgeorganize(arr){
     }
     console.log(purgeorganize([1, 2, 4, 3]));             
     console.log(purgeorganize([1, 4, 4, 4, 4, 4, 3, 2, 1, 2])); 
-    console.log(purgeorganize([6, 7, 3, 2, 1]));            
+    console.log(purgeorganize([6, 7, 3, 2, 1]));      
+
+/*output
+[ 1, 2, 3, 4 ]
+[ 1, 2, 3, 4 ]
+[ 1, 2, 3, 6, 7 ]*/
     
