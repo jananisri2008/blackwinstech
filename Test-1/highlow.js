@@ -32,4 +32,10 @@ function highlow(numbers) {
 console.log(highlow("1 2 3 4 5"));     
 console.log(highlow("1 2 -3 4 5"));    
 console.log(highlow("1 9 3 4 -5"));    
-console.log(highlow("13"));            
+console.log(highlow("13"));           
+
+/*output
+5 1
+5 -3
+9 -5
+13 13*/
