@@ -7,7 +7,7 @@ uniqueSort([1, 2, 4, 3]) ➞ [1, 2, 3, 4]
 uniqueSort([1, 4, 4, 4, 4, 4, 3, 2, 1, 2]) ➞ [1, 2, 3, 4]
 uniqueSort([6, 7, 3, 2, 1]) ➞ [1, 2, 3, 6, 7]
  */
-function purgeorg(arr) {
+function purgeorganize(arr) {
        let uniqueArray = [];
     for (let i = 0; i < arr.length; i++) {
         if (!uniqueArray.includes(arr[i])) {
@@ -25,9 +25,9 @@ function purgeorg(arr) {
     }
     return uniqueArray; 
 }
-console.log(purgeorg([1, 2, 4, 3]));
-console.log(purgeorg([1, 4, 4, 4, 4, 4, 3, 2, 1, 2])); 
-console.log(purgeorg([6, 7, 3, 2, 1])); 
+console.log(purgeorganize([1, 2, 4, 3]));
+console.log(purgeorganize([1, 4, 4, 4, 4, 4, 3, 2, 1, 2])); 
+console.log(purgeorganize([6, 7, 3, 2, 1])); 
 /*output
 [ 1, 2, 3, 4 ]
 [ 1, 2, 3, 4 ]
