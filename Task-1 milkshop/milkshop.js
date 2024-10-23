@@ -1,3 +1,6 @@
+/*In a milk shop  rate of small size milk pocket is RS: 10 rate of medium size milk pocket is RS:20 rate of large size milk pocket is RS:50 and the stack of small size milk pocket is 100 pockets and stack of medium size milk pocket is 50 and stack of large size milk pocket is 10.get a input from the user  stack and balance amount . write this program in javascript.
+*/
+
 //import prompt
 const prompt = require("prompt-sync")();
 //object{property}
