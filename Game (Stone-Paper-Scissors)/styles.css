@@ -1,0 +1,19 @@
+.container{
+    padding: 20px;
+    margin:50px auto;
+    border: 1.5px;
+    background-color:antiquewhite;
+    width: 300px;
+    border-radius: 10px;
+}
+h1{
+    text-align: center;
+}
+button{
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    font-size: small;
+    background-color: aqua;
+    color: brown;
+}
